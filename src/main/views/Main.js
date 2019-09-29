@@ -1,6 +1,7 @@
 import React, { Component } from "react";
+import { Container } from '@material-ui/core';
 
-class Root extends Component {
+class Main extends Component {
   componentDidMount() {
     this.disableReactDevTools();
   }
@@ -21,10 +22,11 @@ class Root extends Component {
 
   render() {
     return (
-      <div id="root" className="root">
+      <div id="main" className="main">
+        <Container maxWidth="md">Hello</Container>
       </div>
     );
   }
 }
 
-export default Root;
+export default Main;

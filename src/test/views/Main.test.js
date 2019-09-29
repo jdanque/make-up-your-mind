@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Root from 'main/pages/Root';
+import Main from 'main/views/Main';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Root />, div);
+  ReactDOM.render(<Main />, div);
   ReactDOM.unmountComponentAtNode(div);
 });
