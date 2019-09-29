@@ -1,4 +1,4 @@
-# make-up-your-mind
+# Make Up Your Mind
 
 ## Table of Contents
 + [About](#about)
