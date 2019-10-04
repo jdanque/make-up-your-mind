@@ -1,0 +1,25 @@
+
+Make up your mind
+
+The idea is to help people make up their minds by comparing the attributes of the options available to them,
+helping the user select the best option with a well informed decision.
+
+steps:
+	choose a title
+	create an option, min 2 max 5
+	add fields or attributes applicable for all options (title/description only at this point)
+		a field should always have a 'not applicable' option
+	fill values for the fields for each option (option and field view only to help the user focus on one option)
+		the user can add or delete a field.
+		deleting a field will delete all field values from the other options already set at this point
+		when adding a field the user can already set a value for the new field, as well as for the other options (with the same field value)
+		when adding a field the user will be asked if he wants to set 'not applicable' for the other options
+
+	push start! ponder over your choices and select the best option with an educated choice
+
+	options are displayed horizontally on web, on mobile its' horizontally scrolling
+	users can change add or delete field or field values 
+	users can upvote/downvote options or delete(not really, more of like hide it) an option completely from the deck as many times as they want
+	users can choose between modes: point system or rising system
+	the options display it's points on each option box depending on how many votes an option have
+	the options will be ranked according to their points in the ranking box 
